@@ -16,11 +16,11 @@ int main ()
 	     cin>>arr[i];
 	}
 	
-	rotateArray(arr,n,d);
+	rotateArray(arr[n],n,d);
 	
 }
 
-void rotateArray (int arr[],int n,int d)
+void rotateArray (int arr[],int n,int spaces)
 {
 	int temp[spaces];
 	for(int i = 0 ; i < spaces ; i++)
@@ -28,23 +28,24 @@ void rotateArray (int arr[],int n,int d)
 		temp[i] = arr[--n];
 	}
 	int leftArr[n-spaces] ;
+	int x = n-spaces ;
 	for(int i = 0 ; i < n-spaces ; i++)
 	{
-		leftArr[i] = arr[--(n-spaces)] ;
+		leftArr[i] = arr[--x] ;
 	}
 	
 	int finalarrr[n];
 	for(int i = 0 ; i<n ;i++)
 	{
 		if(i < d)
-		finalarr[i] = temp[i];
+		finalarrr[i] = temp[i];
 		else
-		finalarr[i] = leftArr[i];
+		finalarrr[i] = leftArr[i];
 	}
 	
 	for(int i  = 0 ; i < n ; i++)
 	{
-		cout<<finalarr[i]<<endl;
+		cout<<finalarrr[i]<<endl;
 	}
 }
 
