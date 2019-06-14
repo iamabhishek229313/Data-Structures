@@ -1,0 +1,37 @@
+-------DATA STRUCTURES--------
+
+
+   1) Array
+			
+
+    Introduction
+    Array Rotations
+    Arrangement Rearrangement
+    Order Statistics
+    Range Queries
+
+    Searching and Sorting
+    Optimization Problems
+    Matrix
+    Misc
+    Quick Links
+
+
+   2) Linked List
+
+
+   3) Stack
+   4) Queue
+
+   5) Binary Tree
+   6) Binary Search Tree
+   6) Heap
+   7) Hashing
+
+   8) Graph
+   9) Matrix
+  10) Misc
+  11) Advanced Data Structure
+
+GITHUB - https://github.com/williamfiset/data-structures
+
